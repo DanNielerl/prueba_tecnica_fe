@@ -22,7 +22,6 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
-import { useState } from "react";
 import { useGithubRepos } from "../hooks/useGithubRepos";
 
 export function RegistrationForm() {
@@ -42,7 +41,6 @@ export function RegistrationForm() {
             celular: "",
             direccion: "",
             githubUser: "",
-            // fechaNacimiento y selectedRepos los manejaremos después
         },
     })
 
@@ -168,10 +166,6 @@ export function RegistrationForm() {
                     />
                     
                 </div>
-
-                {/* ... (cierre del <div className="grid...">) ... */}
-
-                    {/* SECCIÓN DE REPOSITORIOS */}
                     <div className="space-y-4 pt-6 border-t">
                         <div>
                             <h3 className="text-lg font-medium">Selecciona tus repositorios</h3>
