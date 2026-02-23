@@ -24,3 +24,8 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
    ```bash
    git clone https://github.com/DanNielerl/prueba_tecnica_fe.git
    cd prueba_tecnica_fe
+
+2. **Instalar las dependencias y ejecutar:**
+  ```bash
+  npm install
+  npm run dev
